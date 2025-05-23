@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="s.css">
 </head>
 <body>
+    <div class="floating-whatsapp">
+    <a href="https://wa.me/6282121442051?text=Halo,%20saya%20butuh%20bantuan%20service%20Ariston" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
   <header>
     <div class="header-container">
         <div class="brand">
@@ -33,18 +38,8 @@
                 <img src="image/aaaaa.jpeg" alt="Service Water Heater">
                 <div class="slide-content">
                     <h3>Service Water Heater Ariston</h3>
-                    <p>Perbaikan dan perawatan water heater oleh teknisi ahli</p>
+                    <p>Perbaikan dan perawatan <br>water heater oleh teknisi ahli</p>
                     <a href="https://wa.me/6282121442051?text=Saya%20butuh%20service%20water%20heater%20Ariston" class="slide-cta" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Hubungi Kami
-                    </a>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="image/aa.jpeg" alt="Service Boiler">
-                <div class="slide-content">
-                    <h3>Service Boiler Ariston</h3>
-                    <p>Perawatan rutin dan perbaikan boiler rumah tangga</p>
-                    <a href="https://wa.me/6282121442051?text=Saya%20butuh%20service%20boiler%20Ariston" class="slide-cta" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i> Hubungi Kami
                     </a>
                 </div>
@@ -52,9 +47,19 @@
             <div class="slide">
                 <img src="image/aaa.jpeg" alt="Service Kompor">
                 <div class="slide-content">
-                    <h3>Service Kompor Ariston</h3>
+                    <h3>Service Kompor Tanam</h3>
                     <p>Perbaikan kompor gas dan listrik Ariston</p>
                     <a href="https://wa.me/6282121442051?text=Saya%20butuh%20service%20kompor%20Ariston" class="slide-cta" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> Hubungi Kami
+                    </a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="image/aa.jpeg" alt="Service Boiler">
+                <div class="slide-content">
+                    <h3>Service Kompor Frestanding Ariston</h3>
+                    <p>Perawatan rutin dan perbaikan Kompor Frestanding</p>
+                    <a href="https://wa.me/6282121442051?text=Saya%20butuh%20service%20boiler%20Ariston" class="slide-cta" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i> Hubungi Kami
                     </a>
                 </div>
@@ -73,7 +78,7 @@
             <div class="service">
                 <i class="fas fa-tools"></i>
                 <h3>Perbaikan</h3>
-                <p>Perbaikan produk Ariston oleh teknisi bersertifikat dengan spare part original</p>
+                <p>Perbaikan produk Ariston oleh teknisi bersertifikat dengan spare part original Bergaransi</p>
             </div>
             <div class="service">
                 <i class="fas fa-calendar-check"></i>
@@ -161,6 +166,76 @@
         </div>
     </section>
 
+    <section class="about-us">
+    <h2>Tentang Kami</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>ARISTON SERVICE CENTER adalah layanan resmi perbaikan dan perawatan untuk semua produk Ariston di Indonesia. Kami memiliki tim teknisi profesional yang telah tersertifikasi dan berpengalaman dalam menangani berbagai masalah teknis pada produk Ariston.</p>
+            
+            <p>Dengan komitmen untuk memberikan pelayanan terbaik, kami menggunakan hanya spare part original dari Ariston untuk menjamin kualitas perbaikan dan keamanan produk Anda. Setiap perbaikan yang kami lakukan dilengkapi dengan garansi resmi.</p>
+        </div>
+       
+           
+        <!-- Galeri Interaktif -->
+        <div class="gallery-container">
+             <a href="https://wa.me/6282121442051?text=Halo,%20saya%20butuh%20bantuan%20service%20Ariston" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp</a>
+                <br><br><br>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal('h.jpeg')">
+                    <img src="image/h.jpeg" alt="Teknisi Ariston">
+                    <div class="img-overlay">
+                        <span>Lihat Detail</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('hh.jpeg')">
+                    <img src="image/hh.jpeg" alt="Workshop Kami">
+                    <div class="img-overlay">
+                        <span>Lihat Detail</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('hhh.jpeg')">
+                    <img src="image/hhh.jpeg" alt="Sparepart Original">
+                    <div class="img-overlay">
+                        <span>Lihat Detail</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('hhhh.jpeg')">
+                    <img src="image/hhhh.jpeg" alt="Sertifikat Garansi">
+                    <div class="img-overlay">
+                        <span>Lihat Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal untuk gambar besar -->
+        <div id="imageModal" class="modal">
+            <img class="modal-content" id="modalImage">
+            <div class="caption"></div>
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+    </div>
+    
+    <div class="about-features">
+        <div class="feature">
+            <i class="fas fa-certificate"></i>
+            <h3>Teknisi Bersertifikat</h3>
+            <p>Tim teknisi profesional dengan sertifikasi resmi dari Ariston</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-box-open"></i>
+            <h3>Spare Part Original</h3>
+            <p>Hanya menggunakan suku cadang asli dari pabrik</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Garansi Resmi</h3>
+            <p>Setiap perbaikan dilengkapi dengan garansi resmi</p>
+        </div>
+    </div>
+</section>
+
     <!-- <section class="office-location">
     <h2>Lokasi Kantor Kami</h2>
     <div class="map-container">
@@ -191,9 +266,9 @@
             <!-- <img src="https://www.ariston.com/static/version1657638727/frontend/Ariston/new/id_ID/images/logo-white.svg" alt="Ariston Logo"> -->
         </div>
         <div class="footer-contact">
-             <a href="https://wa.me/6282121442051?text=Halo,%20saya%20butuh%20bantuan%20service%20Ariston" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
-        </a>
+            <a href="https://wa.me/6282121442051?text=Halo,%20saya%20butuh%20bantuan%20service%20Ariston" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
+            </a>
             <!-- <p><i class="fas fa-envelope"></i> service@ariston-indonesia.com</p> -->
         </div>
         <p>&copy; 2023 Service Center Ariston. Semua hak dilindungi.</p>
@@ -229,6 +304,50 @@
         
         // Initialize slider
         showSlide(0);
+
+
+          // Fungsi untuk galeri interaktif
+    function openModal(imgSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const captionText = document.querySelector('.caption');
+    
+    modal.style.display = "block";
+    modalImg.src = "image/" + imgSrc; // Tambahkan path folder image/
+    captionText.innerHTML = document.querySelector('[alt="' + document.querySelector('img[src="image/' + imgSrc + '"]').alt + '"]').alt;
+    
+    // Tambahkan efek zoom
+    modalImg.style.transform = 'scale(0.5)';
+    setTimeout(() => {
+        modalImg.style.transform = 'scale(1)';
+        modalImg.style.transition = 'transform 0.3s ease-out';
+    }, 50);
+}
+
+    function closeModal() {
+        document.getElementById('imageModal').style.display = "none";
+    }
+
+    // Tutup modal ketika klik di luar gambar
+    window.onclick = function(event) {
+        const modal = document.getElementById('imageModal');
+        if (event.target == modal) {
+            closeModal();
+        }
+    }
+
+
+    // Floating WhatsApp Button Behavior
+window.addEventListener('scroll', function() {
+    const whatsappBtn = document.querySelector('.floating-whatsapp');
+    if (window.scrollY > 300) { // Muncul setelah scroll 300px
+        whatsappBtn.style.display = 'flex';
+    } else {
+        whatsappBtn.style.display = 'none';
+    }
+});
+
+// Atau jika ingin selalu terlihat, cukup CSS saja tanpa JavaScript ini
     </script>
 </body>
 </html>
