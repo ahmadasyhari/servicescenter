@@ -777,3 +777,12 @@ header {
     opacity: 0;
     pointer-events: none;
 }
+
+.logo-link:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.logo-img {
+    border-radius: 100px; /* optional untuk sudut yang sedikit melengkung */
+}
